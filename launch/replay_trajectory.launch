@@ -1,0 +1,7 @@
+<launch>
+    
+    <rosparam file="$(find amr_trajectory_viz)/params/replayer.yaml" />
+    
+    <node name="replayer_node" pkg="amr_trajectory_viz" type="replayer_node" output="screen" />
+
+</launch>

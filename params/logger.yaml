@@ -1,0 +1,13 @@
+
+logger:
+  marker_topic_name: "trajectory_marker_array"
+  path_color:
+    r: 0
+    g: 1
+    b: 0
+    a: 1
+  odom_topic_name: "/odom"
+  service_name: "log_trajectory"
+  precision: 0.1
+  angular_precision: 0.1
+  

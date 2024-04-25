@@ -1,0 +1,11 @@
+
+
+replayer:
+  marker_topic_name: "cached_trajectory_marker_array"
+  path_color:
+    r: 0
+    g: 0.25
+    b: 0.5
+    a: 1
+# Specify an absolute path or a path relative to package/logs
+trajectory_csv: "sammple.csv"

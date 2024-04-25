@@ -1,0 +1,4 @@
+# SaveTrajectory.srv
+string filename   # Filename under which trajectory data is saved
+float64 duration  # Duration in seconds to save trajectory
+---
